@@ -1,4 +1,5 @@
-# Out folder
+# Build folders
+build/
 out/
 
 # Prerequisites
@@ -33,3 +34,7 @@ out/
 *.exe
 *.out
 *.app
+
+# Editor configs
+.vs
+.vscode
