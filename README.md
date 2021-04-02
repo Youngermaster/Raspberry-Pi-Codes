@@ -20,13 +20,13 @@ To connect your Windows 10 Desktop you would need the to install `xrdp`:
 `sudo apt install xrdp -y`
 
 And then just copy your `$ip` address, like this:
-![windows 10 remote desktop connection](GitHubAssets\windows_10_remote_desktop_connection.png)
+![windows 10 remote desktop connection](GitHubAssets/windows_10_remote_desktop_connection.png)
 
 Then click yes:
-![windows 10 remote desktop connection](GitHubAssets\windows_10_remote_desktop_connection_click_yes.png)
+![windows 10 remote desktop connection](GitHubAssets/windows_10_remote_desktop_connection_click_yes.png)
 
 And finally use your credentials to login:
-![windows 10 remote desktop connection](GitHubAssets\windows_10_remote_desktop_connection_login.png)
+![windows 10 remote desktop connection](GitHubAssets/windows_10_remote_desktop_connection_login.png)
 
 The default login credentials are:
 
