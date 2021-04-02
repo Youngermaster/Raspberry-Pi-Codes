@@ -34,6 +34,7 @@ The default login credentials are:
 - password: `raspberry`
 
 
+
 ### Windows 10 Remote Desktop Connection alternatives
 
 You can also use [Real VNC](https://www.realvnc.com/es/connect/download/viewer/)
