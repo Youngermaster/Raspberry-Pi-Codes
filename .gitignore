@@ -1,6 +1,6 @@
 # Build folders
-build/
-out/
+build
+out
 
 # Prerequisites
 *.d
