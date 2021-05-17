@@ -4,4 +4,4 @@ project(SDLRPI VERSION 1.0)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-target_link_libraries(sdl2_demo SDL2main SDL2 GL)
+target_link_libraries(${PROJECT_NAME} SDL2main SDL2 GL)
