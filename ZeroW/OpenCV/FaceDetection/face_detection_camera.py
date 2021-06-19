@@ -6,10 +6,7 @@ cap = cv2.VideoCapture(0)
 face_cascade = cv2.CascadeClassifier(
     "cascades/haarcascade_frontalface_default.xml")
 
-fps = cap.get(cv2.CAP_PROP_FPS)
-
-print(
-    "Frames per second using video.get(cv2.CAP_PROP_FPS) : {0}".format(fps))
+camera = False
 
 while True:
     # read the image from the cam
@@ -22,11 +19,8 @@ while True:
     for x, y, width, height in faces:
         cv2.rectangle(image, (x, y), (x + width, y + height),
                       color=(255, 0, 0), thickness=2)
-
-    fps = cap.get(cv2.CAP_PROP_FPS)
-
-    print(
-        "Frames per second using video.get(cv2.CAP_PROP_FPS) : {0}".format(fps))
+    if len(faces) > 0:
+        print("Face Detected")
 
     cv2.imshow("image", image)
     if cv2.waitKey(1) == ord("q"):
