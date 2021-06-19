@@ -23,9 +23,6 @@ while True:
         cv2.rectangle(image, (x, y), (x + width, y + height),
                       color=(255, 0, 0), thickness=2)
 
-    for x, y, width, height in eyes:
-        cv2.rectangle(image, (x, y), (x + width, y + height),
-                      color=(0, 255, 0), thickness=1)
     fps = cap.get(cv2.CAP_PROP_FPS)
 
     print(
