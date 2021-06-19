@@ -2,7 +2,7 @@
 // CPP program to detects face in a video
 
 // Include required header files from OpenCV directory
-#include <iostream
+#include <iostream>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/objdetect.hpp>
@@ -26,10 +26,10 @@ int main(int argc, const char** argv) {
     double scale = 1;
 
     // Load classifiers from "opencv/data/haarcascades" directory
-    nestedCascade.load("../../haarcascade_eye_tree_eyeglasses.xml");
+    nestedCascade.load("cascades/haarcascade_eye_tree_eyeglasses.xml");
 
     // Change path before execution
-    cascade.load("../../haarcascade_frontalcatface.xml");
+    cascade.load("cascades/haarcascade_frontalcatface.xml");
 
     // Start Video..1) 0 for WebCam 2) "Path to Video" for a Local Video
     capture.open(0);
