@@ -85,13 +85,15 @@ void detectAndDraw(Mat& img, CascadeClassifier& cascade,
             center.y = cvRound((r.y + r.height * 0.5) * scale);
             radius = cvRound((r.width + r.height) * 0.25 * scale);
             circle(img, center, radius, color, 3, 8, 0);
-        } else
+        } else {
             rectangle(img, cvPoint(cvRound(r.x * scale), cvRound(r.y * scale)),
                       cvPoint(cvRound((r.x + r.width - 1) * scale),
                               cvRound((r.y + r.height - 1) * scale)),
                       color, 3, 8, 0);
+        }
         if (nestedCascade.empty())
             continue;
+
         smallImgROI = smallImg(r);
 
         // Detection of eyes int the input image
