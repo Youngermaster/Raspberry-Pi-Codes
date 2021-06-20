@@ -22,7 +22,7 @@ int main(int argc, const char** argv) {
     Mat frame, image;
 
     // PreDefined trained XML classifiers with facial features
-    CascadeClassifier cascade, nestedCascade;
+    CascadeClassif  ier cascade, nestedCascade;
     double scale = 1;
 
     // Load classifiers from "opencv/data/haarcascades" directory
