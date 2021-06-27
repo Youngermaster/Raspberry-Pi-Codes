@@ -1,2 +1,2 @@
 [target.arm-unknown-linux-musleabi]
-image = "my/image:tag"
+image = "youngermaster/custom_cross:arm-unknown-linux-musleabi-0.2.1"
