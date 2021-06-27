@@ -1,7 +1,7 @@
 from gpiozero import LED, Button
 
-led = LED(17)
-button = Button(2)
+led = LED(12)
+button = Button(6)
 
 while True:
     if button.is_pressed:
