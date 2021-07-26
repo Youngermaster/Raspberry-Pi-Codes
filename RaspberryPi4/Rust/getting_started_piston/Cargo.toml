@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2018"
 
 [[bin]]
-name = "spinning-square"
+name = "getting_started_piston"
 
 [dependencies]
 piston = "0.53.0"
